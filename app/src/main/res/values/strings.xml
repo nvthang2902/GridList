@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GridList</string>
+        <string name="java">Java</string>
+        <string name="java_description">Java description</string>
+        <string name="anh">anh</string>
+        <string name="pvtuan">Phan Văn Tuấn</string>
+        <string name="tenMH">Môn học: Java</string>
+        <string name="giaoVien">Giao Viên: Hà</string>
+        <string name="anhmonhoc">anhMonhoc</string>
+        <string name="tiet">Tiết: 1_2</string>
+        <string name="phong_a102">Phong: A102</string>
+
+</resources>

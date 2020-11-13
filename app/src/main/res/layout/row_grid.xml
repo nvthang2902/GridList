@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/java"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:contentDescription="@string/anhmonhoc"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/ngonNgu"
+            android:layout_below="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:text="@string/tenMH"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/moTa"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giaoVien"
+            android:layout_below="@id/ngonNgu"
+            android:paddingTop="3dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/phongHoc"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phong_a102"
+            android:layout_below="@id/moTa"
+            android:paddingTop="3dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tiet"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiet"
+            android:layout_below="@id/phongHoc"
+            android:paddingTop="3dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
